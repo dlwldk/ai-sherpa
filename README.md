@@ -1,0 +1,56 @@
+# 🏔️ 재물보험 AI 세르파
+
+> GA·교차설계사 전용 재물보험 설계 자동화 시스템  
+> 한화손해보험 바이브코딩 경진대회 출품작
+
+## 🚀 로컬 실행
+
+```bash
+# 1. 의존성 설치
+npm install
+
+# 2. 개발 서버 실행
+npm run dev
+```
+
+브라우저에서 `http://localhost:5173/ai-serpa/` 접속
+
+## 📦 빌드 & GitHub Pages 배포
+
+```bash
+# 빌드
+npm run build
+
+# GitHub Pages 배포 (gh-pages 브랜치)
+npm run deploy
+```
+
+### GitHub Pages 설정
+
+1. GitHub에 `ai-serpa` 레포지토리 생성
+2. 아래 명령 실행:
+
+```bash
+git init
+git remote add origin https://github.com/YOUR_USERNAME/ai-serpa.git
+git add .
+git commit -m "initial commit"
+git push -u origin main
+npm run deploy
+```
+
+3. GitHub 레포 → Settings → Pages → Source: `gh-pages` branch 선택
+4. `https://YOUR_USERNAME.github.io/ai-serpa/` 에서 접속 가능
+
+## 🏗️ 주요 기능
+
+1. **기본정보 입력** - 고객명, 업종(AI 자연어 매칭), 건물등급, 면적, 층수, 보장기간
+2. **보험목적물** - 건물/시설·집기/기계·설비/재고 보험가입금액 및 보험료 자동 산출
+3. **특약선택** - 자연어로 걱정거리 입력 → AI 특약 추천, 다중이용업소 의무특약 자동 추가
+4. **결과확인** - 보장보험료 요약, 만기환급금 시뮬레이션, 절세효과, 세일즈 스크립트
+
+## ⚠️ 참고사항
+
+- 모든 요율·산출 데이터는 데모용 Dummy Data입니다
+- DB 없이 클라이언트에서 모든 계산 처리
+- 실제 보험요율과 다를 수 있습니다
