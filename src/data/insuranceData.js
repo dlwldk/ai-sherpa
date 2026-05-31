@@ -182,10 +182,7 @@ export const ACCIDENT_CASES = {
       title: '음식점 화재사고',
       summary: '서울 OO구 숯불구이 음식점에서 환풍기 덕트 내 유분(기름때)에 불이 옮겨 붙어 점포 전소. 영업 중단 3개월, 피해액 약 2억 8천만원.',
       lesson: '환풍기 관리 소홀로 인한 화재는 음식점에서 가장 빈번한 사고입니다. 건물+시설 보장이 필수입니다.',
-      images: [
-        'https://images.unsplash.com/photo-1486915309615-911955a0d52a?w=400&h=260&fit=crop',
-        'https://images.unsplash.com/photo-1599700403969-f77b3aa74837?w=400&h=260&fit=crop',
-      ],
+      images: [],
     },
     {
       title: '식중독 집단 발생',
@@ -199,9 +196,7 @@ export const ACCIDENT_CASES = {
       title: '카페 화상 사고',
       summary: 'OO카페에서 종업원이 뜨거운 커피를 손님에게 쏟아 2도 화상. 치료비+위자료 약 1,800만원 배상.',
       lesson: '시설소유관리자배상책임특약과 고용자배상책임특약으로 대비해야 합니다.',
-      images: [
-        'https://images.unsplash.com/photo-1486915309615-911955a0d52a?w=400&h=260&fit=crop',
-      ],
+      images: [],
     },
   ],
   pc_bang: [
@@ -209,10 +204,7 @@ export const ACCIDENT_CASES = {
       title: 'PC방 화재',
       summary: 'OO시 PC방에서 멀티탭 과부하로 인한 전기화재 발생. 고가 PC장비 전소, 피해액 약 1억 5천만원.',
       lesson: '전기적사고특약과 시설(집기) 보장으로 고가 장비를 보호해야 합니다.',
-      images: [
-        'https://images.unsplash.com/photo-1486915309615-911955a0d52a?w=400&h=260&fit=crop',
-        'https://images.unsplash.com/photo-1599700403969-f77b3aa74837?w=400&h=260&fit=crop',
-      ],
+      images: [],
     },
   ],
   screen_golf: [
@@ -228,11 +220,7 @@ export const ACCIDENT_CASES = {
       title: '공장 화재 전소',
       summary: 'OO시 가구 제조공장에서 원인불명 화재로 공장 및 원자재 전소. 피해액 약 8억원, 영업손실 별도.',
       lesson: '공장은 화재 위험이 높아 건물+기계+재고 모두 충분한 보험가입금액 설정이 핵심입니다.',
-      images: [
-        'https://images.unsplash.com/photo-1486915309615-911955a0d52a?w=400&h=260&fit=crop',
-        'https://images.unsplash.com/photo-1599700403969-f77b3aa74837?w=400&h=260&fit=crop',
-        'https://images.unsplash.com/photo-1545696968-1a5245650b36?w=400&h=260&fit=crop',
-      ],
+      images: [],
     },
   ],
   default: [
@@ -240,9 +228,7 @@ export const ACCIDENT_CASES = {
       title: '일반 화재 사고',
       summary: '전기 합선으로 인한 화재로 점포 내부 전소. 인테리어 복구비용 약 1억 2천만원 소요.',
       lesson: '어떤 업종이든 화재 위험은 존재합니다. 건물등급에 맞는 적정 보험가입금액 설정이 중요합니다.',
-      images: [
-        'https://images.unsplash.com/photo-1486915309615-911955a0d52a?w=400&h=260&fit=crop',
-      ],
+      images: [],
     },
   ],
 };
