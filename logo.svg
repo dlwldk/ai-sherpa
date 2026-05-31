@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 60">
+  <!-- Hanwha interlocking circles -->
+  <circle cx="28" cy="22" r="18" fill="none" stroke="#F37321" stroke-width="4"/>
+  <ellipse cx="22" cy="34" rx="12" ry="14" fill="none" stroke="#E8930C" stroke-width="3" transform="rotate(-15 22 34)"/>
+  <ellipse cx="34" cy="38" rx="9" ry="11" fill="none" stroke="#D4890B" stroke-width="2.5" transform="rotate(10 34 38)"/>
+  <circle cx="18" cy="42" r="7" fill="none" stroke="#C07A0A" stroke-width="2"/>
+  <!-- Company name -->
+  <text x="68" y="38" font-family="'Noto Sans KR', sans-serif" font-size="22" font-weight="700" fill="#ffffff" letter-spacing="1">한화손해보험</text>
+</svg>
