@@ -13,7 +13,7 @@ npm install
 npm run dev
 ```
 
-브라우저에서 `http://localhost:5173/ai-serpa/` 접속
+브라우저에서 `http://localhost:5173/ai-sherpa/` 접속
 
 ## 📦 빌드 & GitHub Pages 배포
 
