@@ -25,23 +25,6 @@ npm run build
 npm run deploy
 ```
 
-### GitHub Pages 설정
-
-1. GitHub에 `ai-serpa` 레포지토리 생성
-2. 아래 명령 실행:
-
-```bash
-git init
-git remote add origin https://github.com/YOUR_USERNAME/ai-serpa.git
-git add .
-git commit -m "initial commit"
-git push -u origin main
-npm run deploy
-```
-
-3. GitHub 레포 → Settings → Pages → Source: `gh-pages` branch 선택
-4. `https://YOUR_USERNAME.github.io/ai-serpa/` 에서 접속 가능
-
 ## 🏗️ 주요 기능
 
 1. **기본정보 입력** - 고객명, 업종(AI 자연어 매칭), 건물등급, 면적, 층수, 보장기간
